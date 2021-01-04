@@ -5,7 +5,7 @@ router.get("/", async (ctx, next) => {
   //     title: 'Hello Koa 2!'
   //   })
   ctx.body = {
-    result: false,
+    result: "false",
   };
 });
 
